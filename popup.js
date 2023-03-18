@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Your existing RSS feed fetching code follows
 
   const rssFeedContainer = document.getElementById('rss-feed-container');
-  const rssFeedUrl = 'https://hnrss.org/frontpage';
+  const rssFeedUrl = 'https://hnrss.org/frontpage?link=comments';
 
   fetch(rssFeedUrl)
     .then(response => response.text())

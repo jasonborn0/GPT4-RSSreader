@@ -23,7 +23,7 @@ A lightweight browser extension that displays RSS feeds when clicked. The extens
 
 ## Usage
 
-1. Edit your feed in `popup.js`, change your desired feed in `rssFeedUrl`.
+1. Edit your feed in `popup.js`, change your desired feed in `rssFeedUrl`. The default RSS feed is [Hacker News](https://news.ycombinator.com/) frontpage.
 2. Click on the extension icon in your browser's toolbar to open the popup
 3. The extension will fetch and display the RSS feed items
 4. Click on a feed item to open the related article in a new tab
