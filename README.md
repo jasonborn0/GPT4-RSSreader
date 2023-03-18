@@ -10,6 +10,8 @@ A lightweight browser extension that displays RSS feeds when clicked. The extens
 - Dark mode toggle based on system color scheme preference
 - Easy-to-read feed titles
 
+![UI](ui.png)
+
 ## Installation
 
 1. Download or clone this repository
