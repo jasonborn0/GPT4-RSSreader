@@ -1,4 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const darkModeToggle = document.getElementById('dark-mode-toggle');
+  const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  // Set the initial state of the toggle switch based on the system preference
+  darkModeToggle.checked = isDarkMode;
+  document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+
+  // Toggle dark mode on click
+  darkModeToggle.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+  });
+
+  // Your existing RSS feed fetching code follows
+
   const rssFeedContainer = document.getElementById('rss-feed-container');
   const rssFeedUrl = 'https://hnrss.org/frontpage';
 
