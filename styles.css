@@ -1,0 +1,54 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  width: 350px;
+  background-color: #ffffff;
+  color: #212529;
+}
+
+header {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #212529;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+#rss-feed-container {
+  padding: 10px;
+}
+
+.feed-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  background-color: #f8f9fa;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.feed-title {
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #212529;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.feed-title:hover {
+  color: #007bff;
+}
+
+.feed-date {
+  font-size: 0.8em;
+  color: #6c757d;
+}

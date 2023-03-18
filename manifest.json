@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "RSS Feed Viewer",
+  "version": "1.0",
+  "description": "A lightweight browser extension to display RSS feeds.",
+  "permissions": ["activeTab", "http://*/*", "https://*/*"],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "RSS Feed Viewer"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
